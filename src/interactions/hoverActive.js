@@ -1,4 +1,4 @@
-import { checkBreakpoints } from './utilities';
+import { checkBreakpoints } from '../utilities';
 
 export const hoverActive = function (gsapContext) {
   //animation ID
