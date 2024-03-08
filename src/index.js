@@ -2,6 +2,7 @@ import { attr } from './utilities';
 import { hoverActive } from './interactions/hoverActive';
 import { parallax } from './interactions/parallax';
 import { scrolling } from './interactions/scrolling';
+import { mouseOver } from './interactions/mouseOver';
 
 document.addEventListener('DOMContentLoaded', function () {
   // Comment out for production
@@ -37,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // hoverActive(gsapContext);
         parallax(gsapContext);
         scrolling(gsapContext);
+        mouseOver(gsapContext);
+
         //or control animations globally in match media
         if (!reduceMotion) {
         }
