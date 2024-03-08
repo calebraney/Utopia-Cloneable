@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",function(){console.log("Local Script Loaded"),function(){gsap.matchMedia().add({isMobile:"(max-width: 767px)",isTablet:"(min-width: 768px)  and (max-width: 991px)",isDesktop:"(min-width: 992px)",reduceMotion:"(prefers-reduced-motion: reduce)"},e=>{let{isMobile:o,isTablet:t,isDesktop:r,reduceMotion:s}=e.conditions})}()});})();
